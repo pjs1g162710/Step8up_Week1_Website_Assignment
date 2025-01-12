@@ -1,25 +1,40 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>CSS-Test</title>
+<title>Challenge_1_W1S2</title>
+
+</head>
 
 ______________________________________________
 /*HERE JUST STYLING SOME GENERIC ELEMENTS TO PUT ON PAGE - RANDOM FORMATTING SELECTED   */
 <style> 
 
 header {
-font-family: arial ;
-color: black;
-font-size: 17px;
-text-align: center;
-justify-self: center;
+    width: stretch;
+    height: 100px;
+    background-color:rgb(0, 51, 128);
+}
+
+#header-background{
+    size:backdrop;
+    background:url("kynance.jpg")
 }
 
 h1 {
+    font-family: Arial ;
+    font-size: 32px;
     color: #ffd700;
     text-transform: uppercase;
     justify-self: center;
     text-align: center;
+   background-color:rgb(0, 51, 128);
+    text-align: center;
+    justify-self: center;
+    width: stretch;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url('C:\Users\PipSimpson\Documents\GitHub\Step8up_Week1_Website_Assignment\kynance.jpg')
 }
 
 h2 {
@@ -28,11 +43,10 @@ h2 {
 }
 
 body {
-    font-size: 14px;
-    font-family: Arial;
+  background-image: url('C:\Users\PipSimpson\Documents\GitHub\Step8up_Week1_Website_Assignment\kynance.jpg');
 }
 
-p {
+  p {
     color: darkslategray;
 }
 em {
@@ -44,10 +58,11 @@ strong {
     color:rgb(0,0,0);
 }
 
-_________________________________________________________
+</style>
+
 /*This code is adapted from https://www.w3schools.com/howto/howto_js_topnav.asp initially --/>
 /* Add a black background color to the top navigation */
-.topnav a{
+.nav {
     background-color: #333;
     overflow: hidden;
     width: 35px;
@@ -57,7 +72,7 @@ _________________________________________________________
   }
   
   /* Style the links inside the navigation bar */
-  .topnav a {
+  .nav {
     float:left;
     color: navy;
     text-align: center;
@@ -69,13 +84,13 @@ _________________________________________________________
   }
   
   /* Change the color of links on hover */
-  .topnav a:hover {
+  .nav:hover {
     background-color: cyan;
     color: black;
   }
   
   /* Add a color to the active/current link */
-  .topnav a.active {
+  .nav.active {
     background-color: #044caa;
     color: rgb(255, 255, 255);
   }
