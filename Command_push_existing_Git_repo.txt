@@ -1,0 +1,5 @@
+#To push an existing Git repo from the command line:
+
+git remote add origin https://github.com/pjs1g162710/second_attempt.git
+git branch -M main
+git push -u origin main
