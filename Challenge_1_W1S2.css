@@ -30,7 +30,7 @@ h1 {
     text-align: center;
    background-color:rgb(0, 51, 128);
     text-align: center;
-    justify-self: center;
+    
     width: 100%;
     height: 100px;
     margin-top: 10px;
@@ -43,6 +43,9 @@ h1 {
 h2 {
     color: red;
     text-transform: uppercase;
+    justify-self: center;
+    text-align: center;
+    background-origin: padding-box;
 }
 
 
@@ -52,8 +55,8 @@ h2 {
 /*This code is adapted from https://www.w3schools.com/howto/howto_js_topnav.asp initially --/>
 /* Add a black background color to the top navigation */
 
-#button 
-.nav {
+ 
+.nav a {
     background-color: #333333;
     overflow: hidden;
     width: 35px;
@@ -63,7 +66,7 @@ h2 {
   }
   
   /* Style the links inside the navigation bar */
-  .nav {
+  .nav a {
     float:right;
     color: navy;
     text-align: center;
@@ -72,16 +75,18 @@ h2 {
     font-size: 17px;
     font-weight: bold;
     background-color: aquamarine;
+    justify-self: center;
+    
   }
   
   /* Change the color of links on hover */
-  .nav:hover {
+  .nav a:hover {
     background-color: cyan;
     color: black;
   }
   
   /* Add a color to the active/current link */
-  .nav.active {
+  .nav a. active {
     background-color: #044caa;
     color: rgb(255, 255, 255);
   }
@@ -94,6 +99,13 @@ h2 {
   body {
     /*background-image: url('C:\Users\PipSimpson\Documents\GitHub\Step8up_Week1_Website_Assignment\kynance.jpg') */
        
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
   
     p {
